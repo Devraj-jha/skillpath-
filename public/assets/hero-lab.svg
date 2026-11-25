@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 610" fill="none">
+  <defs>
+    <linearGradient id="panel" x1="108" y1="80" x2="660" y2="510" gradientUnits="userSpaceOnUse"><stop stop-color="#193D48"/><stop offset="1" stop-color="#142630"/></linearGradient>
+    <linearGradient id="mint" x1="160" y1="130" x2="340" y2="320" gradientUnits="userSpaceOnUse"><stop stop-color="#A0F0D7"/><stop offset="1" stop-color="#50BDA0"/></linearGradient>
+    <linearGradient id="gold" x1="470" y1="350" x2="620" y2="480" gradientUnits="userSpaceOnUse"><stop stop-color="#F2D294"/><stop offset="1" stop-color="#C9903F"/></linearGradient>
+    <filter id="shadow" x="0" y="0" width="760" height="610" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="22"/></filter>
+    <pattern id="pixels" width="18" height="18" patternUnits="userSpaceOnUse"><rect width="4" height="4" fill="#8CE7CC" opacity=".18"/><rect x="9" y="9" width="4" height="4" fill="#8CE7CC" opacity=".1"/></pattern>
+  </defs>
+  <ellipse cx="390" cy="500" rx="265" ry="50" fill="#040D12" opacity=".5" filter="url(#shadow)"/>
+  <circle cx="548" cy="132" r="116" fill="#63CFB0" opacity=".08"/>
+  <circle cx="548" cy="132" r="84" stroke="#86E6CC" stroke-opacity=".24" stroke-dasharray="4 8"/>
+  <path d="M548 18v-10M548 256v-10M434 132h-10M672 132h-10" stroke="#91EBD1" stroke-width="2" opacity=".55"/>
+  <rect x="98" y="70" width="560" height="425" rx="26" fill="url(#panel)" stroke="#6CCAB0" stroke-opacity=".27"/>
+  <rect x="98" y="70" width="560" height="425" rx="26" fill="url(#pixels)" opacity=".45"/>
+  <path d="M98 118h560" stroke="#80D8BE" stroke-opacity=".16"/>
+  <circle cx="125" cy="94" r="4" fill="#E3A65D"/><circle cx="141" cy="94" r="4" fill="#70C7A9"/><circle cx="157" cy="94" r="4" fill="#6B8F99"/>
+  <rect x="122" y="141" width="236" height="325" rx="16" fill="#10212B" stroke="#5D988F" stroke-opacity=".22"/>
+  <text x="144" y="174" fill="#8BA9A9" font-family="monospace" font-size="10" letter-spacing="2">YOUR ALIGNMENT</text>
+  <circle cx="240" cy="266" r="69" stroke="#36545A" stroke-width="12"/>
+  <circle cx="240" cy="266" r="69" stroke="url(#mint)" stroke-width="12" stroke-linecap="round" stroke-dasharray="285 434" transform="rotate(-90 240 266)"/>
+  <text x="240" y="260" text-anchor="middle" fill="#F0F7F2" font-family="Arial,sans-serif" font-size="37" font-weight="700">68</text>
+  <text x="240" y="282" text-anchor="middle" fill="#8EAAA8" font-family="Arial,sans-serif" font-size="11">MATCH SCORE</text>
+  <rect x="143" y="365" width="190" height="1" fill="#34505A"/>
+  <circle cx="152" cy="391" r="4" fill="#79D9B9"/><text x="165" y="395" fill="#C3D8D2" font-family="Arial,sans-serif" font-size="11">4 strengths</text>
+  <circle cx="152" cy="421" r="4" fill="#E4B464"/><text x="165" y="425" fill="#C3D8D2" font-family="Arial,sans-serif" font-size="11">3 to improve</text>
+  <rect x="376" y="141" width="258" height="155" rx="16" fill="#10212B" stroke="#5D988F" stroke-opacity=".22"/>
+  <text x="398" y="174" fill="#8BA9A9" font-family="monospace" font-size="10" letter-spacing="2">SKILL SIGNALS</text>
+  <text x="398" y="211" fill="#DCEAE4" font-family="Arial,sans-serif" font-size="12">JavaScript</text><rect x="398" y="223" width="210" height="7" rx="3.5" fill="#2A454B"/><rect x="398" y="223" width="185" height="7" rx="3.5" fill="#78D5B4"/>
+  <text x="398" y="254" fill="#DCEAE4" font-family="Arial,sans-serif" font-size="12">CSS & layout</text><rect x="398" y="266" width="210" height="7" rx="3.5" fill="#2A454B"/><rect x="398" y="266" width="126" height="7" rx="3.5" fill="#D9A85D"/>
+  <rect x="376" y="316" width="258" height="150" rx="16" fill="#10212B" stroke="#5D988F" stroke-opacity=".22"/>
+  <text x="398" y="349" fill="#8BA9A9" font-family="monospace" font-size="10" letter-spacing="2">NEXT MILESTONE</text>
+  <rect x="398" y="368" width="39" height="39" rx="11" fill="#214B49"/><path d="m410 388 6 6 11-14" stroke="#91E8CA" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="450" y="385" fill="#E2EFEA" font-family="Arial,sans-serif" font-size="13" font-weight="700">Ship a portfolio project</text><text x="450" y="404" fill="#8FAAA5" font-family="Arial,sans-serif" font-size="10">Turn learning into evidence</text>
+  <rect x="398" y="429" width="210" height="5" rx="2.5" fill="#2A454B"/><rect x="398" y="429" width="137" height="5" rx="2.5" fill="url(#gold)"/>
+  <g transform="translate(48 335)"><rect x="0" y="0" width="104" height="128" rx="15" fill="#D9A85D"/><rect x="12" y="13" width="80" height="102" rx="9" fill="#F1D8A4"/><path d="M26 39h51M26 51h38M26 70h51M26 82h26" stroke="#8A6032" stroke-width="4" stroke-linecap="square"/><rect x="26" y="94" width="38" height="7" fill="#8A6032"/></g>
+  <g transform="translate(604 40)"><rect x="0" y="0" width="68" height="68" rx="16" fill="#203D43" stroke="#86DCC0" stroke-opacity=".45"/><path d="M18 39h32M18 29h20M18 49h25" stroke="#A4EBD4" stroke-width="3" stroke-linecap="square"/><rect x="18" y="15" width="8" height="5" fill="#DFAE67"/></g>
+  <g transform="translate(620 448)"><rect x="0" y="0" width="12" height="12" fill="#E3B76E"/><rect x="17" y="0" width="12" height="12" fill="#E3B76E" opacity=".6"/><rect x="0" y="17" width="12" height="12" fill="#E3B76E" opacity=".6"/><rect x="17" y="17" width="12" height="12" fill="#E3B76E" opacity=".25"/></g>
+</svg>

@@ -1,0 +1,173 @@
+[
+  {
+    "id": "r-html",
+    "skillId": "html",
+    "kind": "Course",
+    "title": "HTML basics and semantic structure",
+    "provider": "MDN Web Docs",
+    "level": "Foundation",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content"
+  },
+  {
+    "id": "r-css",
+    "skillId": "css",
+    "kind": "Course",
+    "title": "CSS layout and responsive design",
+    "provider": "MDN Web Docs",
+    "level": "Foundation",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics"
+  },
+  {
+    "id": "r-js",
+    "skillId": "javascript",
+    "kind": "Course",
+    "title": "JavaScript Guide",
+    "provider": "MDN Web Docs",
+    "level": "Foundation",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+  },
+  {
+    "id": "r-react",
+    "skillId": "react",
+    "kind": "Documentation",
+    "title": "Quick Start",
+    "provider": "React",
+    "level": "Intermediate",
+    "url": "https://react.dev/learn"
+  },
+  {
+    "id": "r-node",
+    "skillId": "node",
+    "kind": "Documentation",
+    "title": "Node.js Learn",
+    "provider": "Node.js",
+    "level": "Intermediate",
+    "url": "https://nodejs.org/en/learn"
+  },
+  {
+    "id": "r-sql",
+    "skillId": "sql",
+    "kind": "Practice",
+    "title": "SQLBolt interactive lessons",
+    "provider": "SQLBolt",
+    "level": "Foundation",
+    "url": "https://sqlbolt.com/"
+  },
+  {
+    "id": "r-git",
+    "skillId": "git",
+    "kind": "Course",
+    "title": "Git Handbook",
+    "provider": "GitHub",
+    "level": "Foundation",
+    "url": "https://docs.github.com/en/get-started/using-git/about-git"
+  },
+  {
+    "id": "r-dsa",
+    "skillId": "dsa",
+    "kind": "Practice",
+    "title": "Problem solving practice",
+    "provider": "CSES Problem Set",
+    "level": "Intermediate",
+    "url": "https://cses.fi/problemset/"
+  },
+  {
+    "id": "r-python",
+    "skillId": "python",
+    "kind": "Course",
+    "title": "The Python Tutorial",
+    "provider": "Python Documentation",
+    "level": "Foundation",
+    "url": "https://docs.python.org/3/tutorial/"
+  },
+  {
+    "id": "r-statistics",
+    "skillId": "statistics",
+    "kind": "Course",
+    "title": "OpenIntro Statistics",
+    "provider": "OpenIntro",
+    "level": "Foundation",
+    "url": "https://www.openintro.org/book/os/"
+  },
+  {
+    "id": "r-excel",
+    "skillId": "excel",
+    "kind": "Course",
+    "title": "Excel training",
+    "provider": "Microsoft Support",
+    "level": "Foundation",
+    "url": "https://support.microsoft.com/en-us/excel"
+  },
+  {
+    "id": "r-pandas",
+    "skillId": "pandas",
+    "kind": "Documentation",
+    "title": "10 minutes to pandas",
+    "provider": "Pandas",
+    "level": "Intermediate",
+    "url": "https://pandas.pydata.org/docs/user_guide/10min.html"
+  },
+  {
+    "id": "r-viz",
+    "skillId": "visualization",
+    "kind": "Course",
+    "title": "Data visualization guidance",
+    "provider": "Datawrapper Academy",
+    "level": "Intermediate",
+    "url": "https://academy.datawrapper.de/"
+  },
+  {
+    "id": "r-networking",
+    "skillId": "networking",
+    "kind": "Course",
+    "title": "Networking basics",
+    "provider": "Cisco Skills for All",
+    "level": "Foundation",
+    "url": "https://skillsforall.com/"
+  },
+  {
+    "id": "r-linux",
+    "skillId": "linux",
+    "kind": "Documentation",
+    "title": "The Linux command line",
+    "provider": "Linux Journey",
+    "level": "Foundation",
+    "url": "https://linuxjourney.com/"
+  },
+  {
+    "id": "r-security",
+    "skillId": "security",
+    "kind": "Course",
+    "title": "Introduction to Cybersecurity",
+    "provider": "Cisco Skills for All",
+    "level": "Foundation",
+    "url": "https://skillsforall.com/"
+  },
+  {
+    "id": "r-owasp",
+    "skillId": "owasp",
+    "kind": "Reference",
+    "title": "OWASP Top 10",
+    "provider": "OWASP",
+    "level": "Intermediate",
+    "url": "https://owasp.org/www-project-top-ten/"
+  },
+  {
+    "id": "r-comm",
+    "skillId": "communication",
+    "kind": "Practice",
+    "title": "Write a concise project decision note",
+    "provider": "SkillPath activity",
+    "level": "All levels",
+    "url": "https://www.nngroup.com/articles/writing-for-the-web/"
+  },
+  {
+    "id": "r-problem",
+    "skillId": "problem-solving",
+    "kind": "Practice",
+    "title": "Break a problem into smaller testable steps",
+    "provider": "SkillPath activity",
+    "level": "All levels",
+    "url": "https://cses.fi/problemset/"
+  }
+]

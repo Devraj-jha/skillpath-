@@ -1,0 +1,57 @@
+[
+  {
+    "id": "profile_demo_student",
+    "userId": "user_demo_student",
+    "name": "Aarav Sharma",
+    "email": "student@skillpath.demo",
+    "college": "Central Institute of Technology",
+    "programme": "B.Tech Computer Science & Engineering",
+    "semester": "5",
+    "graduationYear": "2027",
+    "targetRole": "web-developer",
+    "skills": {
+      "html": 2,
+      "css": 1,
+      "javascript": 2,
+      "typescript": 0,
+      "react": 1,
+      "node": 1,
+      "sql": 1,
+      "git": 2,
+      "dsa": 1,
+      "python": 1,
+      "statistics": 0,
+      "excel": 1,
+      "pandas": 0,
+      "visualization": 0,
+      "networking": 1,
+      "linux": 1,
+      "security": 0,
+      "owasp": 0,
+      "communication": 2,
+      "problem-solving": 2,
+      "teamwork": 1,
+      "critical-thinking": 1
+    },
+    "projects": [
+      {
+        "id": "prj-demo-1",
+        "title": "Campus Notes",
+        "description": "A responsive notes application with local storage.",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "github": "",
+        "url": "",
+        "contribution": "Frontend and interaction design"
+      }
+    ],
+    "interests": [
+      "Frontend development",
+      "Product engineering"
+    ],
+    "updatedAt": "2026-11-25T05:36:43.233Z"
+  }
+]

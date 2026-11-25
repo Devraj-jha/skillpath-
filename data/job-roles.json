@@ -1,0 +1,104 @@
+[
+  {
+    "id":"software-developer","title":"Software Developer","category":"Engineering","level":"Entry level","duration":"6–9 month pathway","description":"Design, build and maintain reliable software by combining programming fundamentals, problem solving and collaborative engineering practices.","summary":"Build the foundations of real-world software engineering.","color":"blue","icon":"code",
+    "skills":[
+      {"skillId":"dsa","required":2,"weight":1.4,"why":"Core reasoning skill used to select efficient solutions."},
+      {"skillId":"javascript","required":2,"weight":1.1,"why":"A practical language for application development."},
+      {"skillId":"python","required":2,"weight":1,"why":"Useful for scripting, automation and quick prototypes."},
+      {"skillId":"git","required":2,"weight":1.1,"why":"Essential for version control and team collaboration."},
+      {"skillId":"sql","required":2,"weight":1,"why":"Most applications need structured data access."},
+      {"skillId":"node","required":1,"weight":0.9,"why":"Introduces APIs and server-side development."},
+      {"skillId":"problem-solving","required":2,"weight":1.2,"why":"Turns product requirements into workable solutions."},
+      {"skillId":"communication","required":2,"weight":0.8,"why":"Makes technical decisions understandable to a team."},
+      {"skillId":"teamwork","required":2,"weight":0.8,"why":"Software is commonly built in shared codebases."}
+    ],
+    "roadmap":[
+      {"id":"sd-1","stage":"Foundation","title":"Programming fundamentals","detail":"Practice variables, control flow, functions, arrays and debugging.","skillIds":["python","javascript"],"estimate":"2 weeks"},
+      {"id":"sd-2","stage":"Foundation","title":"Data structures and algorithms","detail":"Work through arrays, strings, maps, stacks, queues and complexity.","skillIds":["dsa"],"estimate":"4 weeks"},
+      {"id":"sd-3","stage":"Intermediate","title":"Git and collaborative workflow","detail":"Use branches, pull requests, reviews and meaningful commits.","skillIds":["git","teamwork"],"estimate":"1 week"},
+      {"id":"sd-4","stage":"Intermediate","title":"Databases and APIs","detail":"Model relational data and expose it through a REST API.","skillIds":["sql","node"],"estimate":"3 weeks"},
+      {"id":"sd-5","stage":"Advanced","title":"Build and ship a complete application","detail":"Create a tested product, document decisions and deploy a working version.","skillIds":["problem-solving","communication"],"estimate":"4 weeks"}
+    ],
+    "projects":[
+      {"title":"Personal task manager","difficulty":"Beginner","description":"Create a task manager with filters, persistence and a clean interface.","technologies":["JavaScript","HTML","CSS"],"skillIds":["javascript","html","css","problem-solving"]},
+      {"title":"REST API and database","difficulty":"Intermediate","description":"Build a documented API with validation, authentication and relational data.","technologies":["Node.js","SQL","Git"],"skillIds":["node","sql","git"]},
+      {"title":"Algorithm visualiser","difficulty":"Advanced","description":"Visualise sorting and graph algorithms with step-by-step controls.","technologies":["JavaScript","SVG"],"skillIds":["dsa","javascript","problem-solving"]}
+    ]
+  },
+  {
+    "id":"web-developer","title":"Web Developer","category":"Product & Web","level":"Entry level","duration":"4–7 month pathway","description":"Create fast, accessible and responsive websites and web applications across the frontend and backend.","summary":"Turn interfaces into complete, useful web experiences.","color":"teal","icon":"globe",
+    "skills":[
+      {"skillId":"html","required":2,"weight":1.1,"why":"Semantic structure is the base of accessible web pages."},
+      {"skillId":"css","required":2,"weight":1.2,"why":"Responsive layout and visual polish are daily work."},
+      {"skillId":"javascript","required":2,"weight":1.4,"why":"The core language of browser interactivity."},
+      {"skillId":"react","required":1,"weight":0.9,"why":"A commonly used component-based UI library."},
+      {"skillId":"node","required":1,"weight":1,"why":"Connects interfaces to server-side logic and APIs."},
+      {"skillId":"sql","required":1,"weight":0.8,"why":"Supports persistent application data."},
+      {"skillId":"git","required":2,"weight":0.9,"why":"Keeps project history and collaboration organized."},
+      {"skillId":"communication","required":2,"weight":0.8,"why":"Helps clarify requirements and share progress."},
+      {"skillId":"problem-solving","required":2,"weight":1,"why":"Helps diagnose bugs and handle edge cases."}
+    ],
+    "roadmap":[
+      {"id":"web-1","stage":"Foundation","title":"HTML and accessible structure","detail":"Build semantic pages, forms, navigation and accessible document structure.","skillIds":["html"],"estimate":"1 week"},
+      {"id":"web-2","stage":"Foundation","title":"CSS, layout and responsive design","detail":"Practice Flexbox, Grid, typography, tokens and mobile-first layouts.","skillIds":["css"],"estimate":"2 weeks"},
+      {"id":"web-3","stage":"Intermediate","title":"JavaScript and browser APIs","detail":"Build interactive interfaces with events, modules, storage and async code.","skillIds":["javascript"],"estimate":"3 weeks"},
+      {"id":"web-4","stage":"Intermediate","title":"Components, APIs and data","detail":"Learn React concepts, HTTP, REST APIs and database basics.","skillIds":["react","node","sql"],"estimate":"4 weeks"},
+      {"id":"web-5","stage":"Advanced","title":"Ship a production-style portfolio project","detail":"Add validation, accessibility checks, testing, documentation and deployment.","skillIds":["git","communication","problem-solving"],"estimate":"3 weeks"}
+    ],
+    "projects":[
+      {"title":"Portfolio with case studies","difficulty":"Beginner","description":"Present two projects with clear problem statements, decisions and outcomes.","technologies":["HTML","CSS","JavaScript"],"skillIds":["html","css","javascript"]},
+      {"title":"Weather and air-quality dashboard","difficulty":"Intermediate","description":"Build a responsive dashboard that consumes a public API and handles loading states.","technologies":["JavaScript","REST API","CSS"],"skillIds":["javascript","css","problem-solving"]},
+      {"title":"Full-stack community board","difficulty":"Advanced","description":"Create a role-aware application with posts, search, validation and persistence.","technologies":["React","Node.js","SQL"],"skillIds":["react","node","sql","git"]}
+    ]
+  },
+  {
+    "id":"data-analyst","title":"Data Analyst","category":"Data & Intelligence","level":"Entry level","duration":"5–8 month pathway","description":"Transform raw information into trustworthy insights through data cleaning, statistical thinking, SQL and clear visual communication.","summary":"Find the signal, explain the story, guide the decision.","color":"gold","icon":"chart",
+    "skills":[
+      {"skillId":"excel","required":2,"weight":1.1,"why":"A practical tool for inspection and quick analysis."},
+      {"skillId":"sql","required":2,"weight":1.4,"why":"Retrieves and shapes data from relational systems."},
+      {"skillId":"python","required":2,"weight":1.1,"why":"Supports repeatable analysis and automation."},
+      {"skillId":"pandas","required":2,"weight":1.2,"why":"A common toolkit for data cleaning and transformation."},
+      {"skillId":"statistics","required":2,"weight":1.2,"why":"Helps distinguish patterns from random variation."},
+      {"skillId":"visualization","required":2,"weight":1.2,"why":"Turns analysis into understandable evidence."},
+      {"skillId":"communication","required":2,"weight":1,"why":"Insights matter when stakeholders can act on them."},
+      {"skillId":"critical-thinking","required":2,"weight":0.9,"why":"Challenges assumptions and data quality."}
+    ],
+    "roadmap":[
+      {"id":"da-1","stage":"Foundation","title":"Spreadsheet analysis","detail":"Clean data, use formulas, pivot tables and audit assumptions.","skillIds":["excel"],"estimate":"2 weeks"},
+      {"id":"da-2","stage":"Foundation","title":"Statistics for decision making","detail":"Study distributions, sampling, confidence and correlation.","skillIds":["statistics"],"estimate":"3 weeks"},
+      {"id":"da-3","stage":"Intermediate","title":"SQL for analytics","detail":"Practice joins, aggregations, CTEs and window functions.","skillIds":["sql"],"estimate":"3 weeks"},
+      {"id":"da-4","stage":"Intermediate","title":"Python data workflow","detail":"Use notebooks and Pandas to clean, reshape and validate datasets.","skillIds":["python","pandas"],"estimate":"4 weeks"},
+      {"id":"da-5","stage":"Advanced","title":"Insight-led reporting","detail":"Build a visual story, document caveats and present recommendations.","skillIds":["visualization","communication","critical-thinking"],"estimate":"3 weeks"}
+    ],
+    "projects":[
+      {"title":"Student performance explorer","difficulty":"Beginner","description":"Explore grade distributions and identify patterns without overstating causality.","technologies":["Excel","Charts"],"skillIds":["excel","statistics","visualization"]},
+      {"title":"Retail sales analysis","difficulty":"Intermediate","description":"Use SQL and Pandas to find seasonality, segments and revenue drivers.","technologies":["SQL","Python","Pandas"],"skillIds":["sql","python","pandas"]},
+      {"title":"Executive insight report","difficulty":"Advanced","description":"Deliver a reproducible analysis and concise stakeholder presentation.","technologies":["Python","SQL","Data viz"],"skillIds":["visualization","communication","critical-thinking"]}
+    ]
+  },
+  {
+    "id":"cybersecurity-associate","title":"Cybersecurity Associate","category":"Security & Infrastructure","level":"Entry level","duration":"6–10 month pathway","description":"Support secure systems by understanding networks, operating systems, security fundamentals and practical defensive testing.","summary":"Understand systems, reduce risk and build safer software.","color":"violet","icon":"shield",
+    "skills":[
+      {"skillId":"networking","required":2,"weight":1.4,"why":"Security work depends on understanding how systems communicate."},
+      {"skillId":"linux","required":2,"weight":1.1,"why":"Many security and infrastructure tools run on Linux."},
+      {"skillId":"security","required":2,"weight":1.4,"why":"Establishes core concepts of risk and protection."},
+      {"skillId":"owasp","required":1,"weight":1.2,"why":"Introduces common web application security risks."},
+      {"skillId":"python","required":1,"weight":0.8,"why":"Helps automate repetitive analysis tasks."},
+      {"skillId":"git","required":1,"weight":0.6,"why":"Tracks scripts, notes and configuration changes."},
+      {"skillId":"problem-solving","required":2,"weight":1,"why":"Supports disciplined investigation and triage."},
+      {"skillId":"communication","required":2,"weight":0.8,"why":"Clear incident notes and escalation matter."}
+    ],
+    "roadmap":[
+      {"id":"cy-1","stage":"Foundation","title":"Networking essentials","detail":"Learn TCP/IP, DNS, HTTP, ports, routing and packet flow.","skillIds":["networking"],"estimate":"3 weeks"},
+      {"id":"cy-2","stage":"Foundation","title":"Linux and command line","detail":"Navigate files, permissions, processes and logs safely.","skillIds":["linux"],"estimate":"2 weeks"},
+      {"id":"cy-3","stage":"Intermediate","title":"Security fundamentals","detail":"Study access control, threat modeling, cryptography concepts and risk.","skillIds":["security"],"estimate":"4 weeks"},
+      {"id":"cy-4","stage":"Intermediate","title":"Web security basics","detail":"Learn common application risks and defensive controls in a legal lab.","skillIds":["owasp"],"estimate":"3 weeks"},
+      {"id":"cy-5","stage":"Advanced","title":"Document a defensive lab","detail":"Build a safe lab, automate a small check and communicate findings.","skillIds":["python","git","problem-solving","communication"],"estimate":"3 weeks"}
+    ],
+    "projects":[
+      {"title":"Home network map","difficulty":"Beginner","description":"Document a small home lab, network segments and exposed services.","technologies":["Networking","Linux"],"skillIds":["networking","linux"]},
+      {"title":"Security headers checker","difficulty":"Intermediate","description":"Create a defensive tool that reports missing HTTP security headers on owned sites.","technologies":["Python","HTTP"],"skillIds":["python","security","owasp"]},
+      {"title":"Incident response playbook","difficulty":"Advanced","description":"Write a practical triage workflow with evidence handling and escalation steps.","technologies":["Documentation","Linux"],"skillIds":["problem-solving","communication","security"]}
+    ]
+  }
+]

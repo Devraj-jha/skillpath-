@@ -1,0 +1,18 @@
+[
+  {
+    "id": "user_demo_student",
+    "name": "Aarav Sharma",
+    "email": "student@skillpath.demo",
+    "passwordHash": "scrypt$a9ed1fb61d50a90e1f1a4d1747caa8da$69aa5648a65ca1b3851c91cf5e2d241e69bbfe32b4838e5609277b4a53f5d172e1a45f9478a65a084bdb822230857068426e97db53554de96a778f77cc7aa3f6",
+    "role": "student",
+    "createdAt": "2026-11-25T05:36:43.233Z"
+  },
+  {
+    "id": "user_demo_admin",
+    "name": "SkillPath Admin",
+    "email": "admin@skillpath.demo",
+    "passwordHash": "scrypt$930d7202230b3337127d190cb56704e6$dda67d2e38bcf3e3c7b134b6a8568cf3fcb115bd68c34adce771fb3eb52c0b4300993926bb5f4168fee662ae6d93d353e8fc78d4068161c99fd5494635a6197b",
+    "role": "admin",
+    "createdAt": "2026-11-25T05:36:43.233Z"
+  }
+]

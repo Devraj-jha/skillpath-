@@ -1,0 +1,118 @@
+[
+  {
+    "id": "assessment_1795585003308_gld9bg",
+    "roleId": "web-developer",
+    "roleTitle": "Web Developer",
+    "match": 93,
+    "counts": {
+      "possessed": 8,
+      "improve": 1,
+      "missing": 0
+    },
+    "comparisons": [
+      {
+        "skillId": "html",
+        "name": "HTML & Semantics",
+        "category": "Frontend",
+        "current": 2,
+        "required": 2,
+        "weight": 1.1,
+        "contribution": 100,
+        "status": "possessed",
+        "why": "Semantic structure is the base of accessible web pages."
+      },
+      {
+        "skillId": "css",
+        "name": "CSS & Responsive Design",
+        "category": "Frontend",
+        "current": 1,
+        "required": 2,
+        "weight": 1.2,
+        "contribution": 50,
+        "status": "improve",
+        "why": "Responsive layout and visual polish are daily work."
+      },
+      {
+        "skillId": "javascript",
+        "name": "JavaScript",
+        "category": "Programming",
+        "current": 2,
+        "required": 2,
+        "weight": 1.4,
+        "contribution": 100,
+        "status": "possessed",
+        "why": "The core language of browser interactivity."
+      },
+      {
+        "skillId": "react",
+        "name": "React",
+        "category": "Frontend",
+        "current": 1,
+        "required": 1,
+        "weight": 0.9,
+        "contribution": 100,
+        "status": "possessed",
+        "why": "A commonly used component-based UI library."
+      },
+      {
+        "skillId": "node",
+        "name": "Node.js & APIs",
+        "category": "Backend",
+        "current": 1,
+        "required": 1,
+        "weight": 1,
+        "contribution": 100,
+        "status": "possessed",
+        "why": "Connects interfaces to server-side logic and APIs."
+      },
+      {
+        "skillId": "sql",
+        "name": "SQL & Databases",
+        "category": "Database",
+        "current": 1,
+        "required": 1,
+        "weight": 0.8,
+        "contribution": 100,
+        "status": "possessed",
+        "why": "Supports persistent application data."
+      },
+      {
+        "skillId": "git",
+        "name": "Git & GitHub",
+        "category": "Tools",
+        "current": 2,
+        "required": 2,
+        "weight": 0.9,
+        "contribution": 100,
+        "status": "possessed",
+        "why": "Keeps project history and collaboration organized."
+      },
+      {
+        "skillId": "communication",
+        "name": "Communication",
+        "category": "Soft skills",
+        "current": 2,
+        "required": 2,
+        "weight": 0.8,
+        "contribution": 100,
+        "status": "possessed",
+        "why": "Helps clarify requirements and share progress."
+      },
+      {
+        "skillId": "problem-solving",
+        "name": "Problem Solving",
+        "category": "Soft skills",
+        "current": 2,
+        "required": 2,
+        "weight": 1,
+        "contribution": 100,
+        "status": "possessed",
+        "why": "Helps diagnose bugs and handle edge cases."
+      }
+    ],
+    "createdAt": "2026-11-25T05:36:43.308Z",
+    "formula": "Σ(weight × min(current level / required level, 1)) ÷ Σ(weight) × 100",
+    "userId": "user_demo_student",
+    "isDemoSample": true
+  }
+]
